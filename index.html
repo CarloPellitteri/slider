@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Slider</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- ===================================== -->
+      <div class="body">
+
+        <div class="slides">
+          <div class="img">
+            <img src="img\img1.jpg" alt="img1" />
+          </div>
+          <div class="img">
+            <img src="img\img2.jpg" alt="img2" />
+          </div>
+          <div class="img">
+            <img src="img\img3.jpg" alt="img3" />
+          </div>
+        </div>
+
+        <div class="arrow-wrap">
+          <div class="arrow" data-id="-1">
+            <div class="arrow-l">
+              &#10094
+            </div>
+          </div>
+          <div class="arrow" data-id="1">
+            <div class="arrow-r">
+              &#10095
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- ===================================== -->
+      <div class="footer">
+        <div class="selector-bar">
+          <div class="grid-container">
+            <div class="grid-item">
+              <div class="selector" data-id="0"></div>
+            </div>
+            <div class="grid-item">
+              <div class="selector" data-id="1"></div>
+            </div>
+            <div class="grid-item">
+              <div class="selector" data-id="2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ===================================== -->
+    <script src="./index.js"></script>
+    <script src="./pattern.js"></script>
+  </body>
+</html>
